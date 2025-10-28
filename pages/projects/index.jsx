@@ -1,14 +1,23 @@
-import PagesMetaHead from '../../components/PagesMetaHead';
-import ProjectsGrid from '../../components/projects/ProjectsGrid';
+import PagesMetaHead from "../../components/PagesMetaHead";
+import ProjectsGrid from "../../components/projects/ProjectsGrid";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 function index() {
-	return (
-		<div className="container mx-auto">
-			<PagesMetaHead title="Projects" />
+  return (
+    <div className="container mx-auto">
+      <PagesMetaHead title="Projects" />
 
-			<ProjectsGrid />
-		</div>
-	);
+      <ProjectsGrid />
+    </div>
+  );
 }
 
 export default index;
+
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ["common"])),
+    },
+  };
+}
