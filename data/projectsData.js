@@ -14,7 +14,10 @@ export const projectsData = [
     url: "streamhub-plataforma-streaming",
     category: "Web Application",
     img: "/images/streamhub/streamhub-portfolio.png",
-    repositoryLink: "",
+    projectLink:
+      "https://streamhub-reactjs-nextjs-plataform-1ve71j6xo-dig-ies-projects.vercel.app/",
+    repositoryLink:
+      "https://github.com/dig-ie/streamhub-REACTJS-NEXTJS-plataform",
     ProjectHeader: {
       title: "StreamHub - Plataforma de Streaming",
       publishDate: "Dez 2024",
@@ -115,7 +118,10 @@ export const projectsData = [
     url: "pokedex-com-pokeapi",
     category: "Web Application",
     img: "/images/pokedex.png",
-    repositoryLink: "",
+    repositoryLink:
+      "https://github.com/dig-ie/pokedex-JAVASCRIPT-CSS-HTML-API-pokemon",
+    projectLink:
+      "https://dig-ie.github.io/pokedex-JAVASCRIPT-CSS-HTML-API-pokemon/",
     ProjectHeader: {
       title: "Pokédex com PokeAPI",
       publishDate: "Jan 2024",

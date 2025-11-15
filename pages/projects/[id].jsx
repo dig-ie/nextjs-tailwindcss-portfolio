@@ -6,6 +6,7 @@ import RelatedProjects from "../../components/projects/RelatedProjects";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { PlayButton } from "../../components/reusable/PlayButton";
 import { ScrollDownIndicator } from "../../components/reusable/ScrollDownIndicator";
+import { Code } from "lucide-react";
 function ProjectSingle(props) {
   return (
     <div className="container mx-auto relative">
@@ -21,8 +22,15 @@ function ProjectSingle(props) {
           <ScrollDownIndicator />
         </div>
         <div className="my-5">
-          {" "}
-          <PlayButton onClick={null} />
+          <PlayButton
+            onClick={() => {
+              window.open(
+                props.project.projectLink,
+                "_blank",
+                "noopener,noreferrer"
+              );
+            }}
+          />
         </div>
 
         <div className="flex">
@@ -91,6 +99,18 @@ function ProjectSingle(props) {
                 );
               })}
             </ul>
+            <div className="my-2">
+              <PlayButton
+                icon={<Code size={18} />}
+                onClick={() => {
+                  window.open(
+                    props.project.repositoryLink,
+                    "_blank",
+                    "noopener,noreferrer"
+                  );
+                }}
+              />
+            </div>
           </div>
 
           {/* Single project objectives */}
