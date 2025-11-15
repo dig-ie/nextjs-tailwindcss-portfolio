@@ -13,14 +13,18 @@ function ProjectSingle(props) {
 
       {/* Header */}
       <div>
-        <div className="flex justify-between">
-          <p className="font-general-medium text-left text-3xl sm:text-4xl font-bold text-primary-dark dark:text-primary-light mt-14 sm:mt-20 mb-7">
+        <div className="flex justify-between items-end">
+          <p className="font-general-medium text-left text-3xl sm:text-4xl font-bold text-primary-dark dark:text-primary-light ">
             {props.project.ProjectHeader.title}
           </p>
+
           <ScrollDownIndicator />
         </div>
+        <div className="my-5">
+          {" "}
+          <PlayButton onClick={null} />
+        </div>
 
-        <PlayButton onClick={null} />
         <div className="flex">
           <div className="flex items-center mr-10">
             <FiClock className="text-xl text-ternary-dark dark:text-ternary-light" />
