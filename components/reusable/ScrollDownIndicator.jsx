@@ -9,7 +9,7 @@ export function ScrollDownIndicator({ className = "" }) {
         size={40}
         className="text-indigo-500 animate-bounce drop-shadow-md"
       />
-      <span className="mt-2 text-sm text-indigo-500 animate-pulse">
+      <span className=" text-sm text-indigo-500 animate-pulse">
         Role para baixo
       </span>
     </div>
