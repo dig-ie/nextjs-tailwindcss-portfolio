@@ -2,7 +2,7 @@ import Image from "next/image";
 import { FiClock, FiTag } from "react-icons/fi";
 import PagesMetaHead from "../../components/PagesMetaHead";
 import { projectsData } from "../../data/projectsData";
-import RelatedProjects from "../../components/projects/RelatedProjects";
+// import RelatedProjects from "../../components/projects/RelatedProjects";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { PlayButton } from "../../components/reusable/PlayButton";
 import { ScrollDownIndicator } from "../../components/reusable/ScrollDownIndicator";
@@ -180,7 +180,7 @@ function ProjectSingle(props) {
         </div>
       </div>
 
-      <RelatedProjects />
+      {/* <RelatedProjects /> */}
     </div>
   );
 }

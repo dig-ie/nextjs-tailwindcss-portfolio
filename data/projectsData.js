@@ -239,9 +239,15 @@ export const projectsData = [
       },
       {
         id: uuidv4(),
+        title: "Asaas - gateway",
+        img: "/images/PHP_CRM_ERP/asaas.jpg",
+      },
+      {
+        id: uuidv4(),
         title: "Login",
         img: "/images/PHP_CRM_ERP/charge_edit.png",
       },
+
       {
         id: uuidv4(),
         title: "Cadastro de Clientes",
