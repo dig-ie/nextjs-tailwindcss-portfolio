@@ -10,7 +10,7 @@ import { v4 as uuidv4 } from "uuid";
 export const projectsData = [
   {
     id: 1,
-    title: "StreamHub - Plataforma de Streaming",
+    title: "Homepage, Idiomas, SEO SSR/SSG - React/Next.js",
     url: "streamhub-plataforma-streaming",
     category: "Web Application",
     img: "/images/streamhub/streamhub-portfolio.png",
@@ -112,108 +112,7 @@ export const projectsData = [
       ],
     },
   },
-  {
-    id: 2,
-    title: "Pokédex com PokeAPI",
-    url: "pokedex-com-pokeapi",
-    category: "Web Application",
-    img: "/images/pokedex.png",
-    repositoryLink:
-      "https://github.com/dig-ie/pokedex-JAVASCRIPT-CSS-HTML-API-pokemon",
-    projectLink:
-      "https://dig-ie.github.io/pokedex-JAVASCRIPT-CSS-HTML-API-pokemon/",
-    ProjectHeader: {
-      title: "Pokédex com PokeAPI",
-      publishDate: "Jan 2024",
-      tags: "HTML5 / CSS3 / JavaScript / API REST",
-    },
-    ProjectImages: [
-      {
-        id: uuidv4(),
-        title: "Pokédex - Lista de Pokémon",
-        img: "/images/web-project-1.jpg",
-      },
-      {
-        id: uuidv4(),
-        title: "Pokédex - Busca Flexível",
-        img: "/images/ui-project-2.jpg",
-      },
-      {
-        id: uuidv4(),
-        title: "Pokédex - Mobile View",
-        img: "/images/mobile-project-1.jpg",
-      },
-    ],
-    ProjectInfo: {
-      ClientHeading: "Sobre o Projeto",
-      CompanyInfo: [
-        {
-          id: uuidv4(),
-          title: "Tipo",
-          details: "Pokédex Interativa",
-        },
-        {
-          id: uuidv4(),
-          title: "Stack Principal",
-          details: "HTML5, CSS3, JavaScript ES6+",
-        },
-        {
-          id: uuidv4(),
-          title: "Autor",
-          details: "Diêgo Ferreira",
-        },
-        {
-          id: uuidv4(),
-          title: "Deploy",
-          details: "GitHub Pages",
-        },
-      ],
-      ObjectivesHeading: "Objetivo",
-      ObjectivesDetails:
-        "Uma Pokédex interativa que consome dados da PokeAPI, exibindo informações de diversos Pokémon em tempo real com sistema de busca flexível e otimizado. Projeto desenvolvido como prática de front-end vanilla focado em consumo de API REST pública, manipulação assíncrona de dados e otimizações de performance.",
-      Technologies: [
-        {
-          title: "Tools & Technologies",
-          techs: [
-            "HTML5",
-            "CSS3",
-            "JavaScript ES6+",
-            "Bootstrap 5",
-            "PokeAPI",
-            "Fetch API",
-            "Async/Await",
-            "Debounce Pattern",
-            "Cache Strategy",
-            "Normalize.css",
-          ],
-        },
-      ],
-      ProjectDetailsHeading: "Funcionalidades e Otimizações",
-      ProjectDetails: [
-        {
-          id: uuidv4(),
-          details:
-            "Busca Flexível em Tempo Real: Sistema de pesquisa com correspondência parcial do nome (case-insensitive), buscando substrings para encontrar Pokémon mesmo com digitação parcial. Exemplo: digitando 'pika' encontra 'pikachu', digitando 'char' encontra 'charmander', 'charmeleon' e 'charizard'. Implementado com limite de 20 resultados para otimização.",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Cache Inteligente: Sistema de cache em memória para melhorar performance, armazenando a lista completa de Pokémon após a primeira busca. Reduz requisições desnecessárias à API e melhora significativamente a velocidade das buscas subsequentes. Cache persiste durante toda a sessão do usuário.",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Debounce Implementation: Sistema de debounce com delay de 300ms para otimizar requisições. Aguarda o usuário parar de digitar por 300ms antes de processar a busca, cancela requisições pendentes se o usuário continuar digitando e restaura a lista imediatamente quando o campo é limpo.",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Paginação e Carregamento Progressivo: Listagem paginada de Pokémon com carregamento inicial de 5 itens e botão 'Carregar +' para carregamento incremental sob demanda. Interface responsiva adaptável com Bootstrap e CSS customizado. Lazy loading de detalhes - busca informações completas apenas dos Pokémon filtrados, reduzindo tráfego de rede.",
-        },
-      ],
-      SocialSharingHeading: "Deploy",
-    },
-  },
+
   {
     id: 3,
     title: "Cadastro, Login e Página do Usuário - Aplicação React",
@@ -320,7 +219,124 @@ export const projectsData = [
   },
   {
     id: 4,
-    title: "GitFind",
+    title: "Mini ERP/CRM - PHP, MySQL, RabbitMQ, Asaas e Docker",
+    url: "mini-erp-crm-php-mysql-rabbitmq-asaas",
+    category: "Web Application / Full Stack",
+    img: "/images/PHP_CRM_ERP/dashboard.png",
+    repositoryLink:
+      "https://github.com/dig-ie/mini-erp-crm-php-mysql-rabbitmq-asaas",
+    projectLink: null,
+    ProjectHeader: {
+      title: "Mini ERP/CRM em PHP 8 + MySQL + RabbitMQ + Asaas",
+      publishDate: "2024",
+      tags: "PHP 8 / MySQL / RabbitMQ / Docker / Asaas API",
+    },
+    ProjectImages: [
+      {
+        id: uuidv4(),
+        title: "Dashboard ERP",
+        img: "/images/mini-erp-php/erp_dashboard.png",
+      },
+      {
+        id: uuidv4(),
+        title: "Login",
+        img: "/images/PHP_CRM_ERP/charge_edit.png",
+      },
+      {
+        id: uuidv4(),
+        title: "Cadastro de Clientes",
+        img: "/images/PHP_CRM_ERP/customer_edit.png",
+      },
+    ],
+    ProjectInfo: {
+      ClientHeading: "Sobre o Projeto",
+      CompanyInfo: [
+        {
+          id: uuidv4(),
+          title: "Tipo",
+          details: "Mini ERP/CRM com Cobranças Asaas e Filas",
+        },
+        {
+          id: uuidv4(),
+          title: "Stack Principal",
+          details: "PHP 8, MySQL, RabbitMQ, Docker",
+        },
+        {
+          id: uuidv4(),
+          title: "Autor",
+          details: "Diêgo Ferreira",
+        },
+        {
+          id: uuidv4(),
+          title: "Integrações",
+          details: "Asaas API, RabbitMQ Worker",
+        },
+      ],
+      ObjectivesHeading: "Objetivo",
+      ObjectivesDetails:
+        "Projeto educacional demonstrando a construção de um Mini ERP/CRM completo usando PHP 8 sem framework, com autenticação por sessão, CRUD de clientes e pedidos, geração de cobranças via Asaas (PIX/Boleto/Cartão), publicação de eventos no RabbitMQ e worker consumidor para orquestração assíncrona. Arquitetura em camadas com MVC enxuto e containers Docker para ambiente completo.",
+      Technologies: [
+        {
+          title: "Tools & Technologies",
+          techs: [
+            "PHP 8.2 (Apache)",
+            "MySQL 8",
+            "RabbitMQ 3 + Management UI",
+            "Docker & Docker Compose",
+            "Asaas API (sandbox/prod)",
+            "php-amqplib/php-amqplib",
+            "Monolog",
+            "PDO",
+            "Sessions",
+          ],
+        },
+      ],
+      ProjectDetailsHeading: "Arquitetura, Funcionalidades e Desafios",
+      ProjectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "Arquitetura em camadas com MVC enxuto: Controllers para lógica de fluxo (Auth, Client, Order, Payment), Models com PDO, Services para integrações externas (Asaas), Queue Publisher para RabbitMQ e worker separado para consumo de eventos.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Integração completa com Asaas API: criação automática de clientes, geração de cobranças (PIX, Boleto, Cartão), persistência dos dados retornados (invoiceUrl, pixQrCode, bankSlipUrl).",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "RabbitMQ para processamento assíncrono: publicação do evento 'order.created' ao criar pedido, exchange de tópico 'orders', worker consumidor (bin/worker.php) processando mensagens e simulando ações como envio de e-mail e atualização de estoque.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Autenticação com PHP nativo usando sessões, seções privadas protegidas por middleware simples e seed inicial de usuário admin (email: admin@example.com / senha: admin123).",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Ambiente totalmente containerizado: Docker Compose orquestra PHP+Apache, MySQL, RabbitMQ e worker PHP dedicado. Facilita desenvolvimento, logs centralizados e isolamento de serviços.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Foco educacional em integrações: filas, webhooks futuros, eventos assíncronos, reconciliação de pagamentos e boas práticas na comunicação entre serviços dentro de um mini ecossistema distribuído.",
+        },
+      ],
+      SocialSharingHeading: "Demonstração",
+      SocialSharing: [
+        {
+          id: uuidv4(),
+          name: "Repositório no GitHub",
+          url: "https://github.com/dig-ie/mini-erp-crm-php-mysql-rabbitmq-asaas",
+        },
+      ],
+    },
+  },
+  {
+    id: 5,
+    title: "GitFind - React ",
     url: "gitfind",
     category: "Web Application",
     img: "/images/gitfind/gitfind_after_search.png",
@@ -410,7 +426,110 @@ export const projectsData = [
     },
   },
   {
-    id: 5,
+    id: 6,
+    title: "Pokédex com PokeAPI - Javascript, HTML e CSS",
+    url: "pokedex-com-pokeapi",
+    category: "Web Application",
+    img: "/images/pokedex.png",
+    repositoryLink:
+      "https://github.com/dig-ie/pokedex-JAVASCRIPT-CSS-HTML-API-pokemon",
+    projectLink:
+      "https://dig-ie.github.io/pokedex-JAVASCRIPT-CSS-HTML-API-pokemon/",
+    ProjectHeader: {
+      title: "Pokédex com PokeAPI",
+      publishDate: "Jan 2024",
+      tags: "HTML5 / CSS3 / JavaScript / API REST",
+    },
+    ProjectImages: [
+      {
+        id: uuidv4(),
+        title: "Pokédex - Lista de Pokémon",
+        img: "/images/web-project-1.jpg",
+      },
+      {
+        id: uuidv4(),
+        title: "Pokédex - Busca Flexível",
+        img: "/images/ui-project-2.jpg",
+      },
+      {
+        id: uuidv4(),
+        title: "Pokédex - Mobile View",
+        img: "/images/mobile-project-1.jpg",
+      },
+    ],
+    ProjectInfo: {
+      ClientHeading: "Sobre o Projeto",
+      CompanyInfo: [
+        {
+          id: uuidv4(),
+          title: "Tipo",
+          details: "Pokédex Interativa",
+        },
+        {
+          id: uuidv4(),
+          title: "Stack Principal",
+          details: "HTML5, CSS3, JavaScript ES6+",
+        },
+        {
+          id: uuidv4(),
+          title: "Autor",
+          details: "Diêgo Ferreira",
+        },
+        {
+          id: uuidv4(),
+          title: "Deploy",
+          details: "GitHub Pages",
+        },
+      ],
+      ObjectivesHeading: "Objetivo",
+      ObjectivesDetails:
+        "Uma Pokédex interativa que consome dados da PokeAPI, exibindo informações de diversos Pokémon em tempo real com sistema de busca flexível e otimizado. Projeto desenvolvido como prática de front-end vanilla focado em consumo de API REST pública, manipulação assíncrona de dados e otimizações de performance.",
+      Technologies: [
+        {
+          title: "Tools & Technologies",
+          techs: [
+            "HTML5",
+            "CSS3",
+            "JavaScript ES6+",
+            "Bootstrap 5",
+            "PokeAPI",
+            "Fetch API",
+            "Async/Await",
+            "Debounce Pattern",
+            "Cache Strategy",
+            "Normalize.css",
+          ],
+        },
+      ],
+      ProjectDetailsHeading: "Funcionalidades e Otimizações",
+      ProjectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "Busca Flexível em Tempo Real: Sistema de pesquisa com correspondência parcial do nome (case-insensitive), buscando substrings para encontrar Pokémon mesmo com digitação parcial. Exemplo: digitando 'pika' encontra 'pikachu', digitando 'char' encontra 'charmander', 'charmeleon' e 'charizard'. Implementado com limite de 20 resultados para otimização.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Cache Inteligente: Sistema de cache em memória para melhorar performance, armazenando a lista completa de Pokémon após a primeira busca. Reduz requisições desnecessárias à API e melhora significativamente a velocidade das buscas subsequentes. Cache persiste durante toda a sessão do usuário.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Debounce Implementation: Sistema de debounce com delay de 300ms para otimizar requisições. Aguarda o usuário parar de digitar por 300ms antes de processar a busca, cancela requisições pendentes se o usuário continuar digitando e restaura a lista imediatamente quando o campo é limpo.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Paginação e Carregamento Progressivo: Listagem paginada de Pokémon com carregamento inicial de 5 itens e botão 'Carregar +' para carregamento incremental sob demanda. Interface responsiva adaptável com Bootstrap e CSS customizado. Lazy loading de detalhes - busca informações completas apenas dos Pokémon filtrados, reduzindo tráfego de rede.",
+        },
+      ],
+      SocialSharingHeading: "Deploy",
+    },
+  },
+  ,
+  {
+    id: 7,
     title: "Portfólio Mobile First JavaScript, HTML e CSS",
     url: "portfolio-mobile-first-javascript",
     category: "Web Application",
