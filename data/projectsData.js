@@ -224,7 +224,7 @@ export const projectsData = [
     category: "Web Application / Full Stack",
     img: "/images/PHP_CRM_ERP/dashboard.png",
     repositoryLink:
-      "https://github.com/dig-ie/mini-erp-crm-php-mysql-rabbitmq-asaas",
+      "https://github.com/dig-ie/PHP-Mini-ERP-CRM-8-Apache-MySQL-RabbitMQ",
     projectLink: null,
     ProjectHeader: {
       title: "Mini ERP/CRM em PHP 8 + MySQL + RabbitMQ + Asaas",
