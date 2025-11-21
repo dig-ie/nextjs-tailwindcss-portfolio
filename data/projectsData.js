@@ -13,7 +13,7 @@ const rawProjects = [
       "Autenticação com Cookies HttpOnly – Next.js + React + Atomic Design",
     url: "autenticacao-nextjs-react-cookie-httponly",
     category: "Web Application / Frontend + API",
-    img: "/images/login-desktop.png",
+    img: "/images/solo-login/login-desktop.png",
     projectLink: "https://login-cadastro-react-next-atomic.vercel.app/",
     repositoryLink:
       "https://github.com/dig-ie/Login-Cadastro-React-Next-Atomic",
