@@ -9,8 +9,7 @@ import { v4 as uuidv4 } from "uuid";
 
 const rawProjects = [
   {
-    title:
-      "Bolsa API — Arquitetura Monolítica Modular com NestJS, Prisma, PostgreSQL e Docker",
+    title: "Back-end: NestJS, Prisma migrations, banco PostgreSQL e Docker",
     url: "bolsa-api-nest-arquitetura-modular",
     category: "Backend / APIs REST / DevOps",
     img: "/images/NESTJS_API_AUTH_DOCKER_PRISMA/swagger_docs.png",
