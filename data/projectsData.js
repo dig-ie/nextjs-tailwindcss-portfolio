@@ -13,7 +13,7 @@ const rawProjects = [
       "Bolsa API — Arquitetura Monolítica Modular com NestJS, Prisma, PostgreSQL e Docker",
     url: "bolsa-api-nest-arquitetura-modular",
     category: "Backend / APIs REST / DevOps",
-    img: "/images/bolsa-api/overview.png",
+    img: "/images/NESTJS_API_AUTH_DOCKER_PRISMA/swagger_docs.png",
     // projectLink: "https://github.com/dig-ie/bolsa-api-nes",
     repositoryLink:
       "https://github.com/dig-ie/bolsa-Next.js-React.js-front-end",
