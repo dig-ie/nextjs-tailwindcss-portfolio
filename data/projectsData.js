@@ -13,8 +13,8 @@ const rawProjects = [
     url: "bolsa-api-nest-arquitetura-modular",
     category: "Backend / APIs REST / DevOps",
     img: "/images/NESTJS_API_AUTH_DOCKER_PRISMA/swagger_docs.png",
-    // projectLink: "https://github.com/dig-ie/bolsa-api-nes",
-    repositoryLink: "https://github.com/dig-ie/bolsa-Node.js-NestJS-back-end",
+    // projectLink: "https://github.com/dbfcode/bolsa-api-nes",
+    repositoryLink: "https://github.com/dbfcode/bolsa-Node.js-NestJS-back-end",
 
     ProjectHeader: {
       title:
@@ -153,7 +153,7 @@ const rawProjects = [
         {
           id: uuidv4(),
           name: "GitHub",
-          url: "https://github.com/dig-ie/bolsa-api-nest",
+          url: "https://github.com/dbfcode/bolsa-api-nest",
         },
       ],
     },
@@ -166,7 +166,7 @@ const rawProjects = [
     img: "/images/solo-login/login-desktop.png",
     projectLink: "https://login-cadastro-react-next-atomic.vercel.app/",
     repositoryLink:
-      "https://github.com/dig-ie/Login-Cadastro-React-Next-Atomic",
+      "https://github.com/dbfcode/Login-Cadastro-React-Next-Atomic",
     ProjectHeader: {
       title: "Autenticação com Cookies HttpOnly – React/Next + NestJS",
       publishDate: "2025",
@@ -271,7 +271,7 @@ const rawProjects = [
         {
           id: uuidv4(),
           name: "GitHub",
-          url: "https://github.com/dig-ie/Login-Cadastro-React-Next-Atomic",
+          url: "https://github.com/dbfcode/Login-Cadastro-React-Next-Atomic",
         },
       ],
     },
@@ -386,7 +386,7 @@ const rawProjects = [
     category: "Web Application",
     img: "/images/react-auth-ui-firebase/react-auth-ui-firebase.png",
     repositoryLink:
-      "https://github.com/dig-ie/react-registration-login-userHome-home",
+      "https://github.com/dbfcode/react-registration-login-userHome-home",
     projectLink: "https://react-registration-login-user-home-home.vercel.app/",
     ProjectHeader: {
       title: "Cadastro, Login e Página do Usuário - Aplicação React",
@@ -489,7 +489,7 @@ const rawProjects = [
     category: "Web Application / Full Stack",
     img: "/images/PHP_CRM_ERP/dashboard.png",
     repositoryLink:
-      "https://github.com/dig-ie/PHP-Mini-ERP-CRM-8-Apache-MySQL-RabbitMQ",
+      "https://github.com/dbfcode/PHP-Mini-ERP-CRM-8-Apache-MySQL-RabbitMQ",
     projectLink: null,
     ProjectHeader: {
       title: "Mini ERP/CRM em PHP 8 + MySQL + RabbitMQ + Asaas",
@@ -600,7 +600,7 @@ const rawProjects = [
         {
           id: uuidv4(),
           name: "Repositório no GitHub",
-          url: "https://github.com/dig-ie/mini-erp-crm-php-mysql-rabbitmq-asaas",
+          url: "https://github.com/dbfcode/mini-erp-crm-php-mysql-rabbitmq-asaas",
         },
       ],
     },
@@ -610,8 +610,8 @@ const rawProjects = [
     url: "gitfind",
     category: "Web Application",
     img: "/images/gitfind/gitfind_after_search.png",
-    repositoryLink: "https://github.com/dig-ie/React-gitFind",
-    projectLink: "https://dig-ie.github.io/React-gitFind/",
+    repositoryLink: "https://github.com/dbfcode/React-gitFind",
+    projectLink: "https://dbfcode.github.io/React-gitFind/",
     ProjectHeader: {
       title: "GitFind",
       publishDate: "2024",
@@ -701,9 +701,9 @@ const rawProjects = [
     category: "Web Application",
     img: "/images/pokedex.png",
     repositoryLink:
-      "https://github.com/dig-ie/pokedex-JAVASCRIPT-CSS-HTML-API-pokemon",
+      "https://github.com/dbfcode/pokedex-JAVASCRIPT-CSS-HTML-API-pokemon",
     projectLink:
-      "https://dig-ie.github.io/pokedex-JAVASCRIPT-CSS-HTML-API-pokemon/",
+      "https://dbfcode.github.io/pokedex-JAVASCRIPT-CSS-HTML-API-pokemon/",
     ProjectHeader: {
       title: "Pokédex com PokeAPI",
       publishDate: "Jan 2024",
@@ -802,8 +802,8 @@ const rawProjects = [
     url: "portfolio-mobile-first-javascript",
     category: "Web Application",
     img: "/images/trilha-js-portfolio/desktop.png",
-    repositoryLink: "https://github.com/dig-ie/trilha-js-portfolio",
-    projectLink: "https://dig-ie.github.io/trilha-js-portfolio/",
+    repositoryLink: "https://github.com/dbfcode/trilha-js-portfolio",
+    projectLink: "https://dbfcode.github.io/trilha-js-portfolio/",
     ProjectHeader: {
       title: "Portfólio Mobile First JavaScript",
       publishDate: "2024",
@@ -896,7 +896,7 @@ const rawProjects = [
         {
           id: uuidv4(),
           name: "GitHub Pages",
-          url: "https://dig-ie.github.io/trilha-js-portfolio/",
+          url: "https://dbfcode.github.io/trilha-js-portfolio/",
         },
       ],
     },

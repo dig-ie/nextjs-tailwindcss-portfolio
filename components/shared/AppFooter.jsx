@@ -11,7 +11,7 @@ const socialLinks = [
   {
     id: 2,
     icon: <FiGithub />,
-    url: "https://github.com/dig-ie",
+    url: "https://github.com/dbfcode",
   },
   {
     id: 4,
